@@ -15,7 +15,6 @@
 (function() {
     'use strict';
     var removeAds = ()=>{
-        //Mangarock adblock (ad_remover to be precise)
         document.querySelectorAll('iframe').forEach(e=>{
             e.parentNode.removeChild(e);
         });
